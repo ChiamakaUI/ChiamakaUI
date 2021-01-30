@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { NavLink } from 'react-router-dom';
-import { SocialIcon } from 'react-social-icons';
 import 'bootstrap/dist/css/bootstrap.min.css';
+// import logo from "./Components/logo.png";
 
 
 
@@ -13,6 +13,7 @@ export default class Navbar extends Component {
                     <nav> 
                         <NavLink to="/" exact>
                             Home
+                             {/* <img src={logo} alt="Chiamaka Ezemba"/> */}
                         </NavLink>
 
                         <NavLink to="/projects">
@@ -22,13 +23,12 @@ export default class Navbar extends Component {
                         <NavLink to="/about">
                             About
                         </NavLink>
-                    </nav>
-                    <div>
-                        <SocialIcon url ="https://twitter.com/Ada_ezemba" target = "_blank"/>
-                        <SocialIcon url ="https://www.linkedin.com/in/chiamaka-ezemba/" target = "_blank"/>
-                        <SocialIcon url ="https://mail.google.com/mail/u/0/#inbox" target = "_blank"/>
 
-                    </div>
+                        <NavLink to="/contact">
+                            Contact Me
+                        </NavLink>
+                    </nav>
+                
 
                 </div>
             </header>
