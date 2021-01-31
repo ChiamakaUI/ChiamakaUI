@@ -53,3 +53,15 @@
     text-align: center !important;
     outline: none;
 }
+
+.about{
+    height: 200px !important;
+    width: 50%;
+    padding: 0px 20px;
+    justify-content: center;
+    align-items: center;
+}
+.aboutPara{
+    font-family: 'Playfair Display', serif;
+    font-size: 20px !important;
+}
