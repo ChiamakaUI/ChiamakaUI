@@ -6,7 +6,12 @@ export default class Contact extends Component {
     return (
       <div className="container">
         <h2>Please, send me a message</h2>
-        <form name="contact" method="POST" data-netlify="true">
+        <form
+          action="/contact"
+          name="contact"
+          method="POST"
+          data-netlify="true"
+        >
           <p>
             <label>
               Your Name: <input type="text" name="name" />
@@ -17,7 +22,7 @@ export default class Contact extends Component {
               Your Email: <input type="email" name="email" />
             </label>
           </p>
-          
+
           <p>
             <label>
               Message: <textarea name="message"></textarea>
