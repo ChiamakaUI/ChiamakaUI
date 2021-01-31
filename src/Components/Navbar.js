@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import { NavLink } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import logo from "./logo.png"
-import './Style.css'
+import logo from "./logo.png";
+import './Style.css';
 
 
 
