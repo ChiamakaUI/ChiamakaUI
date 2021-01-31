@@ -5,12 +5,12 @@ export default class Contact extends Component {
   render() {
     return (
       <div className="container">
-        <h2>Please, send me a message</h2>
+        <h2>Please, send a message</h2>
         <form
-          action="/contact"
           name="contact"
           method="POST"
           data-netlify="true"
+          action="/contact"
         >
           <p>
             <label>
