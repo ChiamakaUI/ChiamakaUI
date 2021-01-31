@@ -8,7 +8,7 @@ export default class Contact extends Component {
         <h2>Please, send a message</h2>
         <form
           name="contact"
-          method="POST"
+          method="GET"
           data-netlify="true"
           action="/contact"
         >
