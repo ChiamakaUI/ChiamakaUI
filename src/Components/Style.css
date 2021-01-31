@@ -18,9 +18,38 @@
     padding-left:15px !important ;
 
 }
-
+.btnLink{
+    color: #000 !important;
+    text-decoration: none !important;
+    font-size: 14px !important;
+    font-family: 'Potta One', cursive;
+}
 .secondDiv{
     width: 100px !important;
     display: inline !important;
     justify-content: space-between !important;
+}
+.wrapper{
+    height: 200px !important;
+    margin-top: 40px !important;
+    width: 65%;
+    padding: 40px 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.myName{
+    font-family: 'Potta One', cursive;
+    text-align: center;
+    margin-top:60px !important;
+ 
+}
+
+.bio{
+    text-align: center;
+}
+
+.viewBtn{ 
+    text-align: center !important;
+    outline: none;
 }
