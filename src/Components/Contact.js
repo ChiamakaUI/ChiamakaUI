@@ -4,9 +4,9 @@ import { SocialIcon } from "react-social-icons";
 export default class Contact extends Component {
   render() {
     return (
-      <div className="container">
-        <h2>Please, send a message</h2>
-        <form
+      <div className="container mx-auto">
+        <h2 className="myName  mb-2">Please, send a message</h2>
+        <form className ="m-auto "
           name="contact"
           method="GET"
           data-netlify="true"
