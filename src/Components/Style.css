@@ -65,3 +65,10 @@
     font-family: 'Playfair Display', serif;
     font-size: 20px !important;
 }
+
+.projectImage{ 
+    width: 250px !important;
+    height: 200px !important;
+    padding: 2px !important;
+    margin: 15px !important;
+}
