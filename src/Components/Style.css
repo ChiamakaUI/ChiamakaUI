@@ -72,3 +72,9 @@
     padding: 2px !important;
     margin: 15px !important;
 }
+
+.projectParagraph{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 18px;
+    font-weight: bold;
+}
