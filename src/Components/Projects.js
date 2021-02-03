@@ -122,7 +122,7 @@ export default class Projects extends Component {
           </div>
         </div>
 
-        <div className="container mt-5">
+        <div className="container my-5">
           <div className="row">
             <div className="col-lg-6">
               <img

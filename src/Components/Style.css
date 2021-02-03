@@ -24,6 +24,13 @@
     font-size: 14px !important;
     font-family: 'Potta One', cursive;
 }
+
+.btnLink1{
+    color: #fff !important;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 18px;
+    
+}
 .secondDiv{
     width: 100px !important;
     display: inline !important;
@@ -77,4 +84,8 @@
     font-family: 'Cormorant Garamond', serif;
     font-size: 18px;
     font-weight: bold;
+}
+
+.my-form{
+    width: 10% !important;
 }
