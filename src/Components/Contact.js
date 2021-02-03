@@ -16,6 +16,8 @@ export default class Contact extends Component {
                 action="/contact"
               >
                 <div className="form-group">
+                  <input type="hidden" name="form-name" value="contact" />
+
                   <label className="projectParagraph" for="Name">
                     Name:
                   </label>
@@ -34,7 +36,10 @@ export default class Contact extends Component {
                   <textarea class="form-control"></textarea>
                 </div>
 
-                <button type="submit" className="btn btn-primary mx-auto btnLink1">
+                <button
+                  type="submit"
+                  className="btn btn-primary mx-auto btnLink1"
+                >
                   Submit
                 </button>
               </form>
