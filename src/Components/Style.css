@@ -73,19 +73,17 @@
     font-size: 20px !important;
 }
 
-.projectImage{ 
-    width: 250px !important;
-    height: 200px !important;
-    padding: 2px !important;
-    margin: 15px !important;
-}
-
 .projectParagraph{
     font-family: 'Cormorant Garamond', serif;
     font-size: 18px;
     font-weight: bold;
 }
 
-.my-form{
-    width: 10% !important;
+.icons {
+  display: inline-grid;
+  grid-template-columns: repeat(4, auto);
+  column-gap: 16px;
+}
+.socialheader{
+      font-family: 'Potta One', cursive;
 }

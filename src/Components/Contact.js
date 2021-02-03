@@ -38,7 +38,7 @@ export default class Contact extends Component {
 
                 <button
                   type="submit"
-                  className="btn btn-primary mx-auto btnLink1"
+                  className="btn btn-primary mx-auto mb-5 btnLink1"
                 >
                   Submit
                 </button>
@@ -46,17 +46,28 @@ export default class Contact extends Component {
             </div>
           </div>
         </div>
-        <div>
-          <SocialIcon url="https://twitter.com/Ada_ezemba" target="_blank" />
+        <div className="inline flex p- 3 mx-auto my-5 icons">
+          <h5 className="socialheader">Follow me on Social media:</h5>
+
+          <SocialIcon
+            url="https://twitter.com/Ada_ezemba"
+            classname="mx-4"
+            target="_blank"
+            style={{ height: 60, width: 60 }}
+          />
           <SocialIcon
             url="https://www.linkedin.com/in/chiamaka-ezemba/"
+            classname="mx-4"
             target="_blank"
+            style={{ height: 60, width: 60 }}
           />
           <SocialIcon
             url="https://medium.com/@ezembachiamaka"
             target="_blank"
+            classname="mx-4"
+            style={{ height: 60, width: 60 }}
           />
-        </div>
+          </div>
       </div>
     );
   }
