@@ -6,12 +6,15 @@ export default class Contact extends Component {
     return (
       <div className="container mx-auto">
         <h2 className="myName  mb-2">Please, send a message</h2>
-        <form className ="m-auto "
+        <form
+          className="m-auto "
           name="contact"
           method="POST"
           data-netlify="true"
           action="/contact"
         >
+          <input type="hidden" name="form-name" value="contact" />
+
           <p>
             <label>
               Your Name: <input type="text" name="name" />
