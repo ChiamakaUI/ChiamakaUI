@@ -4,10 +4,9 @@
 }
 
 .logoStyle{ 
-    width: 100px !important;
-    height: 100px !important;
-    padding: 2px !important;
-    margin: 15px !important;
+    width: 97px !important;
+    height: 92px !important;
+    
 }
 
 .links{
@@ -63,7 +62,7 @@
 
 .about{
     height: 200px !important;
-    width: 50%;
+    width: 100%;
     padding: 0px 20px;
     justify-content: center;
     align-items: center;

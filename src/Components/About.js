@@ -4,7 +4,7 @@ import "./Style.css";
 const About = () => {
     return (
       <div className="container about">
-        <h2 className="myName  mb-2">About Me</h2>
+        <h2 className="myName  mb-3">About Me</h2>
         <p className="text-center text-justify aboutPara">
           I am an avid Frontend Developer, quick to grasp new technologies to
           design efficient and scalable products. Dedicated to optimizing
@@ -13,7 +13,7 @@ const About = () => {
           knowledge on tech stacks. Skilled at team collaboration while working
           independently in a remote environment. Over the years, I have
           developed programming competencies in HTML 5, CSS, JavaScript, React
-          snd Bootstrap through self-learning and online courses.
+          and Bootstrap through self-learning and online courses.
         </p>
       </div>
     );

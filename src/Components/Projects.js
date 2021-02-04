@@ -9,7 +9,7 @@ export default class Projects extends Component {
     return (
       <div className="container">
         <h2 className="myName  mb-2">Projects</h2>
-        <div className="container mt-5">
+        <div className="container mt-4">
           <div className="row">
             <div className="col-lg-6">
               <img

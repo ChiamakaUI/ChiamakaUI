@@ -21,14 +21,17 @@ export default class Navbar extends Component {
                   <img src={logo} alt="Chiamaka Ezemba" className="logoStyle" />
                 </NavLink>
                 <div className="d-flex flex-row-reverse d-inline-flex secondDiv">
-                  <NavLink to="/about" className="links p-2">
+                  <NavLink to="/about" className="links p-2 projectParagraph">
                     About
                   </NavLink>
-                  <NavLink to="/projects" className="links p-2">
+                  <NavLink
+                    to="/projects"
+                    className="links p-2 projectParagraph"
+                  >
                     Projects
                   </NavLink>
 
-                  <NavLink to="/contact" className="links p-2">
+                  <NavLink to="/contact" className="links p-2 projectParagraph">
                     Contact Me
                   </NavLink>
                 </div>
