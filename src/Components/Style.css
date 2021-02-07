@@ -53,6 +53,10 @@
 
 .bio{
     text-align: center;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 30px !important;
+    font-weight: bolder;
+
 }
 
 .viewBtn{ 
@@ -68,8 +72,9 @@
     align-items: center;
 }
 .aboutPara{
-    font-family: 'Playfair Display', serif;
+    font-family: 'Cormorant Garamond', serif;
     font-size: 20px !important;
+    font-weight: bold;
 }
 
 .projectParagraph{
@@ -86,3 +91,4 @@
 .socialheader{
       font-family: 'Potta One', cursive;
 }
+
