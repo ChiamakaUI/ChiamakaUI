@@ -1,48 +1,34 @@
-### Hi there 👋
+# Chiamaka Ezemba
 
-<!--
-**ChiamakaUI/ChiamakaUI** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Backend and fullstack engineer. Currently founding engineer at [VidBloq](https://vidbloq.com), building SDK infrastructure for blockchain-based monetization inside live video — tipping, paid access, prediction markets, and contests, settled in USDC on Solana.
 
-Here are some ideas to get you started:
+Before that: a DeFi primitives project in Rust (AMM, concentrated liquidity with tick math, order book matching engine), a computer vision pipeline for real-time football tracking using Roboflow and ByteTrack, and SquadXI, a fantasy football platform with on-chain prize distribution via Anchor.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
 
-Welcome to my GitHub profile! I'm a passionate developer building cool things with Solana, Typescript, React, and Rust. I love working on mobile, and blockchain projects.
+## What I work with
 
-🚀 About Me
+**Backend**: Node.js, TypeScript, PostgreSQL (PgTyped — typed `.sql` files), Express, WebSockets 
+**Frontend**: React, Next.js, Tailwind, shadcn/ui  
+**Blockchain**: Solana, Anchor, Rust, USDC/SPL tokens, Privy embedded wallets, Helius RPC  
+**Infra**: Railway, Vercel, LiveKit
 
-💻 Languages & Frameworks: TypeScript, Rust, Golang, React, React Native, Tailwind CSS, Anchor (Solana)
+---
 
-🔗 Blockchain & Web3: Solana, Metaplex, Wallet Adapter, cNFTs, Streamlink SDK
+## Selected projects
 
-🎥 Livestreaming & Real-time: LiveKit, Socket.io, WebSockets
+**VidBloq** — Multi-tenant SaaS SDK for live video monetization. Tenants get tipping, paid room access, contests, polls, and quizzes — each settled on-chain. Streamlink and Ledgerly are the two live tenant applications.
 
-📱 Mobile Development: React Native (Not using Expo)
+**Ledgerly** — Paid call-booking platform (think Calendly, but payment is a USDC escrow initialized at booking, released on call completion, refundable on cancellation). Full lifecycle tested on Solana devnet.
 
-☁️ Backend & Cloud: Node.js, Railway, GraphQL, Mosquitto (MQTT)
+**SquadXI** — Fantasy football with on-chain prize distribution. Unified Anchor program handles contest lifecycle and agent vault. Backend uses PgTyped with API-Football for fixture sync.
 
-🔥 What I'm Working On
+**DeFi primitives** — AMM with constant product formula, concentrated liquidity pool using tick-based accounting, and an order book matching engine. Written in Rust.
 
-🛠 Building an SDK for livestreaming & Web3 interactions
+---
 
-🔑 Improving wallet authentication using @tiplink/wallet-adapter
+## Currently
 
-📦 Exploring recording storage solutions for LiveKit
+Open to remote backend or fullstack roles. Strongest in event-driven systems, real-time data pipelines, and on-chain financial transactions.
 
-📫 Get in Touch
-
-Twitter: @Ada_ezemba
-
-LinkedIn: https://www.linkedin.com/in/chiamaka-ezemba/
-
-Email: ezembachiamaka@gmail.com
-
-Let's connect and build something amazing! 🚀
+→ [LinkedIn](https://linkedin.com/in/chiamaka-ezemba) · [Email](mailto:ezembachiamaka@gmail.com)
