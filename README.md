@@ -1,29 +1,26 @@
 # Chiamaka Ezemba
 
 Backend and fullstack engineer. Currently founding engineer at [VidBloq](https://vidbloq.com), building SDK infrastructure for blockchain-based monetization inside live video — tipping, paid access, prediction markets, and contests, settled in USDC on Solana.
-
-Before that: a DeFi primitives project in Rust (AMM, concentrated liquidity with tick math, order book matching engine), a computer vision pipeline for real-time football tracking using Roboflow and ByteTrack, and SquadXI, a fantasy football platform with on-chain prize distribution via Anchor.
+VidBloq is multi-tenant: each tenant gets the same monetization primitives configured to their product.
 
 ---
 
-## What I work with
+## Stack
 
-**Backend**: Node.js, TypeScript, PostgreSQL (PgTyped — typed `.sql` files), Express, WebSockets 
-**Frontend**: React, Next.js, Tailwind, shadcn/ui  
-**Blockchain**: Solana, Anchor, Rust, USDC/SPL tokens, Privy embedded wallets, Helius RPC  
+**Backend**: Node.js, TypeScript, PostgreSQL (PgTyped — typed `.sql` files, not an ORM), Express, WebSockets  
+**Frontend**: React, Next.js 14, Tailwind, shadcn/ui  
+**Blockchain**: Solana, Anchor, Rust 
 **Infra**: Railway, Vercel, LiveKit
 
 ---
 
-## Selected projects
+## Projects
 
-**VidBloq** — Multi-tenant SaaS SDK for live video monetization. Tenants get tipping, paid room access, contests, polls, and quizzes — each settled on-chain. Streamlink and Ledgerly are the two live tenant applications.
+**[defi-primitive](https://github.com/ChiamakaUI/defi-primitive)** — DeFi primitives in Rust: constant product AMM, Uniswap V3-style concentrated liquidity with tick crossing, and a price-time priority order book. Type-safe token pairs enforced at compile time via phantom types. Invariants verified with proptest.
 
-**Ledgerly** — Paid call-booking platform (think Calendly, but payment is a USDC escrow initialized at booking, released on call completion, refundable on cancellation). Full lifecycle tested on Solana devnet.
+**[ledgerly-server](https://github.com/ChiamakaUI/ledgerly-server)** — Backend for a paid call-booking platform. Every booking creates a USDC escrow on Solana — locked at booking, released on call completion, refundable on host no-show. PgTyped for typed SQL, no ORM, no controllers layer.
 
-**SquadXI** — Fantasy football with on-chain prize distribution. Unified Anchor program handles contest lifecycle and agent vault. Backend uses PgTyped with API-Football for fixture sync.
-
-**DeFi primitives** — AMM with constant product formula, concentrated liquidity pool using tick-based accounting, and an order book matching engine. Written in Rust.
+**SquadXI** — Fantasy football platform with on-chain prize distribution. Single Anchor program manages the full contest lifecycle. Chose on-chain settlement to eliminate platform trust assumptions on prize custody.
 
 ---
 
