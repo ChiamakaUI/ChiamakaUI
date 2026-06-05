@@ -18,9 +18,9 @@ VidBloq is multi-tenant: each tenant gets the same monetization primitives confi
 
 **[defi-primitive](https://github.com/ChiamakaUI/defi-primitive)** — DeFi primitives in Rust: constant product AMM, Uniswap V3-style concentrated liquidity with tick crossing, and a price-time priority order book. Type-safe token pairs enforced at compile time via phantom types. Invariants verified with proptest.
 
-**[ledgerly-server](https://github.com/ChiamakaUI/ledgerly-server)** — Backend for a paid call-booking platform. Every booking creates a USDC escrow on Solana — locked at booking, released on call completion, refundable on host no-show. PgTyped for typed SQL, no ORM, no controllers layer.
+**[ledgerly](https://github.com/ChiamakaUI/ledgerly-server)** — Backend for a paid call-booking platform. Every booking creates a USDC escrow on Solana — locked at booking, released on call completion, refundable on host no-show. PgTyped for typed SQL, no ORM, no controllers layer.
 
-**SquadXI** — Fantasy football platform with on-chain prize distribution. Single Anchor program manages the full contest lifecycle. Chose on-chain settlement to eliminate platform trust assumptions on prize custody.
+**[SquadXI](https://github.com/ChiamakaUI/squadxi-server)** — Fantasy football platform with on-chain prize distribution. Single Anchor program manages the full contest lifecycle. Chose on-chain settlement to eliminate platform trust assumptions on prize custody.
 
 ---
 
